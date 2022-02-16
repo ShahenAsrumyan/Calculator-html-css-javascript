@@ -5,7 +5,6 @@ var answer1 ;
 buttonsCalc.addEventListener("click", function (event) {
     if (!event.target.classList.contains("calc_btn")) return;
     var value = event.target.innerText;
-    debugger;
     switch (value) {
         case "C":
             result.innerText = "";
@@ -34,7 +33,7 @@ buttonsCalc.addEventListener("click", function (event) {
             result.innerText = "";
             result.innerText = value;
             break;
-        case "𝓍2":
+        case "x2":
             value = result.innerText;
             value *= value;
             result.innerText = "";
@@ -62,7 +61,6 @@ buttonsCalc.addEventListener("click", function (event) {
 });
 
 function clickHistory() {
-    debugger
     var array2 = [];
     array2.push(razmo);
     var divis = document.createElement("div");  
