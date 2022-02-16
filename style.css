@@ -145,7 +145,7 @@ img{
     height: 19px;
 }
 .havasar{
-    background-color: #1975C5;
+    background-color: #1975C5 !important;
 }
 button:hover{
     color: rgb(197, 193, 193);
